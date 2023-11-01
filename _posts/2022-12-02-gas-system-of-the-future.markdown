@@ -2,6 +2,7 @@
 title:  "Gas System of the Future, Digital Twin"
 categories: 
     - digital twins
+    - architecture
 tags: 
     - architecture
     - energy & utilities

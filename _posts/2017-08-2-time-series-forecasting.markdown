@@ -8,7 +8,6 @@ tags:
     - neural networks
     - time series prediction
     - tensorflow
-    - pandas
     - predictive modelling
 ---
 

@@ -4,11 +4,10 @@ categories:
     - kubernetes
 tags: 
     - architecture
-    - hashicorp
-    - consul  
+    - hashicorp consul
     - neo4j
     - containerisation
-    - vault
+    - hashicorp vault
 ---
 
 Continuing with the theme of Kubernetes, I have recently built out a solution to inject environment variables into containerised applications from Hasicorp Consult and Vault Key Value (KV) engine, which might be considered as a first step in realising Hashicorp's Service Mesh. Installing both Consul and Vault via helm with the KV Engine is fairly straightforward. Supplying these KV's as environment variables to the containerised applications in Kubernetes, however, requires a bit more thought. Two different approaches are required to lift in values from Consul and Vault which makes things even more interesting. The approach I took was to write the KV's to file before they are exposed as ENVs in the container, which is less than ideal. As a side note, it might be cleaner and simpler to manage config at the application layer by calling Consul and Vault's HTTP API. That is another approach which I'm not going to talk about here. 

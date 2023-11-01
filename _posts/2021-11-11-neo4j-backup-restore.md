@@ -2,11 +2,11 @@
 title:  "Backup and Restore Neo4j in a Casual Cluster"
 categories: 
     - kubernetes
+    - architecture
 tags: 
     - causual cluster
     - neo4j
-    - backup
-    - restore
+    - backup & restore
     - kubernetes
     - architecture
 ---

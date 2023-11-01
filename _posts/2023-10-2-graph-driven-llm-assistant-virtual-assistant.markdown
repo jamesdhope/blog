@@ -2,6 +2,7 @@
 title:  "Graph-Driven, LLM-Assisted Virtual Assistant Architecture"
 categories: 
     - generativeAI
+    - architecture
 tags: 
     - data science
     - generativeAI
