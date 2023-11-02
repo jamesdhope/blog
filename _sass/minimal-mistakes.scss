@@ -38,3 +38,9 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+.page__content {
+    p, a, li, dl {
+      font-size: 0.85em;
+    }
+  }
